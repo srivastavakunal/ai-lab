@@ -1,7 +1,12 @@
-venv/
+**/venv/
 testenv/
-__pycache__/
+**/__pycache__/
 *.pyc
 .env
 .idea/
 .vscode/
+
+# Generated/runtime files for Python-C protobuf demo
+python-c-protobuf-demo/nanopb/
+python-c-protobuf-demo/read_person
+python-c-protobuf-demo/person.bin
