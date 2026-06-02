@@ -2,27 +2,43 @@
 
 My personal AI engineering learning repository.
 
+This repo documents my hands-on journey into AI engineering, systems programming, protobuf, gRPC, local LLMs, RAG, and telecom-focused AI applications.
+
 ## Projects
 
-- protobuf-demo: Simple Python project to understand Protocol Buffers.
-=======
-# ai-lab
-My AI engineering learning journey: Python, Protobuf, gRPC, Local LLMs, RAG, Agents and Telecom AI applications.
+### protobuf-demo
 
-## Current Projects
+A simple Python-only protobuf demo.
 
-- `protobuf-demo` — Simple Python project to understand Protocol Buffers.
-- `grpc-demo` — Next project: client/server communication using gRPC.
-- `ollama-demo` — Local LLM experiments using Ollama.
-- `rag-demo` — Retrieval-Augmented Generation experiments.
-- `modem-assistant` — Long-term project: AI assistant for modem engineering workflows.
+What it demonstrates:
+- Defining a `.proto` schema
+- Generating Python protobuf code
+- Serializing a message
+- Deserializing it back in Python
+
+### python-c-protobuf-demo
+
+A cross-language protobuf demo between Python and C.
+
+What it demonstrates:
+- Shared protobuf schema between Python and C
+- Python serializing a `Person` message into binary format
+- C decoding the same protobuf binary using nanopb
+- Language-neutral binary message exchange
 
 ## Learning Goals
 
-- Python
-- Protobuf
+- Python for AI and systems tooling
+- Protocol Buffers
 - gRPC
 - Local LLMs with Ollama
-- RAG
+- RAG systems
 - AI agents
-- Telcom-focused AI applications
+- Telecom-focused AI assistants
+
+## Planned Projects
+
+- `grpc-demo` — Simple Python gRPC client/server using protobuf
+- `ollama-demo` — Run local LLMs and call Ollama from Python
+- `rag-demo` — Build a local document Q&A system
+- `telecom-assistant` — Apply RAG and local LLMs to telecom engineering workflows
